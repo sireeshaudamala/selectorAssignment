@@ -5,23 +5,61 @@
     <style>
       .font {
         font-family: sans-serif;
-        padding: 40px;
-        margin: 0px;
-        height: 500px;
+        padding: 40px 40px 10px 40px;
+        height: 400px;
         width: 500px;
         color: rgba(0, 0, 0, 60%);
         border: 1px solid black;
+        margin: auto;
+      }
+
+      #heading {
+        font-size: 40px;
+        font-weight: 100;
+        margin: 0px 0px 40px 0px;
+      }
+      #line {
+        font-size: 20px;
+        color: black;
+      }
+      #firstPara {
+        font-size: 20px;
+        font-weight: 100;
+        word-spacing: 5px;
+        line-height: 30px;
+      }
+      #button {
+        height: 50px;
+        width: 400px;
+        font-weight: 100;
+        font-size: 23px;
+        border-radius: 40px;
+        background-color: #4184e1;
+        color: white;
+      }
+      #secondPara {
+        color: rgba(0, 0, 0, 30%);
       }
     </style>
   </head>
-  <body class="font">
-    <h1 style="font-size: 25px; font-weight: 100">
-      Build your first chatbot in 10 minutes!
-    </h1>
 
-    <p>
+  <body class="font">
+    <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
+
+    <p id="line">––––––</p>
+
+    <p id="firstPara">
       Have a bot answering questions from customers on your website within 10
       min of signing up for ChatBot.
+    </p>
+
+    <div id="button">
+      <p style="text-align: center">TRY NOW</p>
+    </div>
+
+    <p id="secondPara">
+      By clicking try now you create an account and agree to our Terms and
+      Conditions and privacy Policy.
     </p>
   </body>
 </html>
