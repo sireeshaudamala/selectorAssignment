@@ -3,74 +3,76 @@
   <head>
     <title>chat bot</title>
     <style>
-      .font {
+      * {
         font-family: sans-serif;
-        text-align: left;
-        padding: 40px 60px 20px 60px;
-        height: 400px;
-        width: 500px;
+        line-height: 30px;
+        word-spacing: 1.3px;
+        letter-spacing: 1.3px;
+        font-weight: 100;
+        padding: 0px;
+        margin: 0px;
         color: rgba(0, 0, 0, 60%);
-        border: 1px solid rgba(0, 0, 0, 40%);
+      }
+      section {
+        width: 30%;
+        margin: 10% auto;
+        border: 0.5px solid rgba(0, 0, 0, 40%);
+        padding: 40px;
+      }
+      h1 {
+        line-height: 40px;
+        margin-bottom: 20px;
+        font-size: 40px;
       }
 
-      #heading {
-        font-size: 40px;
-        letter-spacing: 1.5px;
-        word-spacing: 6px;
-        font-weight: 100;
-        margin: 0px 0px 20px 0px;
+      div {
+        width: 10%;
+        border: 1px solid black;
+        margin-bottom: 20px;
       }
-      #line {
-        font-size: 20px;
-        color: black;
-      }
+
       #firstPara {
         font-size: 23px;
-        color: rgba(0, 0, 0, 50%);
-        font-weight: 100;
-        word-spacing: 5px;
-        line-height: 30px;
-      }
-      .button {
-        height: 50px;
-        width: 500px;
-        font-weight: 100;
-        font-size: 23px;
-        border-radius: 40px;
-        background-color: #4184e1;
-        color: white;
+        color: rgba(0, 0, 0, 40%);
+        margin-bottom: 20px;
       }
 
-      #insideButton {
+      a {
+        display: block;
         text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 40px;
         padding: 10px;
+        background-color: #4184e1;
       }
+
       #secondPara {
-        padding-top: 10px;
-        font-weight: 100;
-        letter-spacing: 1px;
         color: rgba(0, 0, 0, 30%);
+        line-height: 20px;
       }
     </style>
   </head>
 
-  <body class="font">
-    <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
+  <body>
+    <section>
+      <h1>Build your first chatbot in 10 minutes!</h1>
 
-    <p id="line">––––––</p>
+      <div></div>
 
-    <p id="firstPara">
-      Have a bot answering questions from customers on your website within 10
-      min of signing up for ChatBot.
-    </p>
+      <p id="firstPara">
+        Have a bot answering questions from customers on your website within 10
+        min of signing up for ChatBot.
+      </p>
 
-    <div class="button">
-      <p id="insideButton">TRY NOW →</p>
-    </div>
+      <a href="#">TRY NOW &rarr;</a>
 
-    <p id="secondPara">
-      By clicking try now you create an account and agree to our Terms and
-      Conditions and privacy Policy.
-    </p>
+      <p id="secondPara">
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and privacy Policy.
+      </p>
+    </section>
   </body>
 </html>
